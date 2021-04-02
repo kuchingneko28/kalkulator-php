@@ -18,23 +18,23 @@ require_once "includes/hitung.php";
 <input type="text" name="bilangan1" class="bilangan" autocomplete="off" placeholder="Masukan Bilangan1">
 <input type="text" name="bilangan2" class="bilangan" autocomplete="off" placeholder="Masukan Bilangan2">
 <select class="opt" name="operator">
-<option value="tambah">+</option>
-<option value="kurang">-</option>
-<option value="kali">*</option>
-<option value="bagi">/</option>
-<option value="bagi2">%</option>
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+<option value="%">%</option>
 </select>
 <button name="hitung" class="tombol">Hitung</button>
 </form>
 <!-- Hitung hasil input -->
 <?php if(isset($_POST["hitung"])){?>
-<input type="text" class="bilangan" value="<?php echo $hasil; ?>">
+<input type="text" class="bilangan" value="Hasil dari <?php echo "$bilangan1 $operator $bilangan2 ="; ?> <?php echo $hasil; ?>">
 <?php }else { ?>
 <input type="text" class="bilangan" value="0">
 <?php }?>
 
 <!-- Author -->
-<h2 class="author">Create by: Kuching Neko</h2>
+<h2 class="author">Create by: Kuching</h2>
 </div>
 </body>
 </html>

@@ -9,23 +9,23 @@ if(isset($_POST["hitung"]))
 
 
     // Hasil input di kalkulasi disini
-    if($operator === "tambah")
+    if($operator === "+")
     {
         $hasil = $bilangan1 + $bilangan2;
     }
-    else if($operator === "kurang")
+    else if($operator === "-")
     {
         $hasil = $bilangan1 - $bilangan2;
     }
-    else if($operator === "kali")
+    else if($operator === "*")
     {
         $hasil = $bilangan1 * $bilangan2;
     }
-    else if($operator === "bagi")
+    else if($operator === "/")
     {
         $hasil = $bilangan1 / $bilangan2;
     }
-    else if($operator === "bagi2")
+    else if($operator === "%")
     {
         $hasil = $bilangan1 % $bilangan2;
         
