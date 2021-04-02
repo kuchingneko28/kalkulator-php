@@ -16,7 +16,7 @@ require_once "includes/hitung.php";
 <!-- Form input -->
 <form action="index.php" method="POST">
 <input type="text" name="bilangan1" class="bilangan" autocomplete="off" placeholder="Masukan Bilangan1">
-<input type="text" name="bilangan2" class="bilangan" autocomplete="off" placeholder="Masukan Bilangan1">
+<input type="text" name="bilangan2" class="bilangan" autocomplete="off" placeholder="Masukan Bilangan2">
 <select class="opt" name="operator">
 <option value="tambah">+</option>
 <option value="kurang">-</option>

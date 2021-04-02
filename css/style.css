@@ -40,6 +40,9 @@ body {
   font-size: 16px;
   color: #eee;
 }
+.tombol:hover {
+  cursor: hand;
+}
 .judul {
   text-align: center;
   color: #eee;
