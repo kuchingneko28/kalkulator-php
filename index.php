@@ -28,7 +28,7 @@ require_once "includes/hitung.php";
 </form>
 <!-- Hitung hasil input -->
 <?php if(isset($_POST["hitung"])){?>
-<input type="text" class="bilangan" value="Hasil dari <?php echo "$bilangan1 $operator $bilangan2 ="; ?> <?php echo $hasil; ?>">
+<input type="text" class="bilangan" value="<?php echo $hasil; ?>">
 <?php }else { ?>
 <input type="text" class="bilangan" value="0">
 <?php }?>
