@@ -1,0 +1,53 @@
+body {
+  background-color: #1e6f5c;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 335px;
+  background-color: #289672;
+  margin: 100px auto;
+  padding: 10px 20px 50px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0px #29bb89;
+}
+
+.bilangan {
+  width: 300px;
+  margin: 5px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.opt {
+  font-size: 16px;
+  border: none;
+  width: 215px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.tombol {
+  background-color: #1e6f5c;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 5px;
+  border-bottom: 4px solid #5cddb2;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #eee;
+}
+.judul {
+  text-align: center;
+  color: #eee;
+  font-weight: normal;
+}
+.author {
+  text-align: center;
+  color: #eee;
+  font-weight: normal;
+  font-size: 14px;
+}
